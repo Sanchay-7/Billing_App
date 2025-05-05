@@ -38,41 +38,41 @@ A complete **offline billing and inventory management** application built with *
 
 ---
 
-⚙️ Installation
+##⚙️ Installation
 1. Clone the Repository
-  bash
-  git clone https://github.com/Sanchay-7/Billing_App.git
-  cd Billing_App
-2. Install Requirements
+    bash
+    git clone https://github.com/Sanchay-7/Billing_App.git
+    cd Billing_App
+3. Install Requirements
   bash
   pip install -r requirements.txt
   requirements.txt
 
-🚀 Running the Application
-  bash
-  python main.py
-  The main dashboard will launch with access to all features.
+##🚀 Running the Application
 
-🧾 Exported Files
-  Invoices → ~/Downloads/invoices/InvoiceNumber_Date.pdf
+    bash
+    python main.py
+    
+    The main dashboard will launch with access to all features.
 
-  Sales Ledger Excel → ~/Downloads/Ledger_Date.xlsx
-
-  Daily Bills → Saved under bills/YYYY-MM-DD/ folder
+ 🧾 Exported Files
+   1. Invoices → ~/Downloads/invoices/InvoiceNumber_Date.pdf
+   2. Sales Ledger Excel → ~/Downloads/Ledger_Date.xlsx
+   3. Daily Bills → Saved under bills/YYYY-MM-DD/ folder
 
   📦 Build Executable for Windows
   Use PyInstaller to create a standalone .exe file:
-
-  bash
-  pip install pyinstaller
+  
+    bash
+    pip install pyinstaller
 
   pyinstaller --noconfirm --onefile --windowed main.py
   Output .exe will be located in the dist/ folder.
 
-📜 License
+📜 License</br>
 This project is licensed under the MIT License. See LICENSE for details.
 
-🙋 Author
+🙋 Author:</br>
 Sanchay
 
 
