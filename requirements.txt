@@ -1,0 +1,9 @@
+pyinstaller
+reportlab
+pandas
+reportlab
+openpyxl
+Pillow
+opencv-python
+pyzbar
+
